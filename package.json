@@ -8,6 +8,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "insomnia": {
+    "name": "random-cpf",
+    "displayName": "Random CPF Plugin",
+    "description": "Gerador de CPF válido e aleatório.",
+    "images": {
+      "icon": "icon.png"
+    },
+    "publisher": {
+      "name": "Alan Silva",
+      "icon": "https://avatars.githubusercontent.com/u/42683597"
+    },
+    "unlisted": false
+  },
   "keywords": [
     "plugin",
     "plugins",
@@ -20,6 +33,6 @@
     "generator",
     "teste"
   ],
-  "repository": "https://github.com/alan-venv/insomnia-plugin-cpf",
-  "homepage": "https://github.com/alan-venv/insomnia-plugin-cpf#readme"
+  "repository": "https://github.com/alan-venv/insomnia-plugin-random-cpf",
+  "homepage": "https://github.com/alan-venv/insomnia-plugin-random-cpf#readme"
 }
