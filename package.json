@@ -1,17 +1,14 @@
 {
-  "name": "insomnia-plugin-cpf",
+  "name": "insomnia-plugin-ufa",
   "author": "Alan Silva",
   "license": "Apache",
   "version": "1.0.0",
-  "description": "Gerador de CPF",
+  "description": "Gerador de massa de teste",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "insomnia": {
-    "name": "random-cpf",
-    "displayName": "Random CPF Plugin",
-    "description": "Gerador de CPF válido e aleatório.",
+    "name": "ufa",
+    "displayName": "UFA Plugin",
+    "description": "Gerador de massa de teste válida e aleatória.",
     "images": {
       "icon": "icon.png"
     },
@@ -33,6 +30,6 @@
     "generator",
     "teste"
   ],
-  "repository": "https://github.com/alan-venv/insomnia-plugin-random-cpf",
-  "homepage": "https://github.com/alan-venv/insomnia-plugin-random-cpf#readme"
+  "repository": "https://github.com/alan-venv/insomnia-plugin-ufa",
+  "homepage": "https://github.com/alan-venv/insomnia-plugin-ufa#readme"
 }
