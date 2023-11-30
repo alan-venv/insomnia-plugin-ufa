@@ -1,6 +1,6 @@
 module.exports.templateTags = [
     {
-        name: 'CPF generator',
+        name: 'CPF',
         displayName: 'CPF',
         description: 'Generates a random valid CPF',
         args: [
