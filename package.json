@@ -2,13 +2,13 @@
   "name": "insomnia-plugin-ufa",
   "author": "Alan Silva",
   "license": "Apache",
-  "version": "1.0.6",
-  "description": "Gerador de massa de teste",
+  "version": "1.0.7",
+  "description": "Generator of valid and random test mass",
   "main": "main.js",
   "insomnia": {
     "name": "ufa",
     "displayName": "UFA",
-    "description": "Gerador de massa de teste válida e aleatória.",
+    "description": "Generator of valid and random test mass",
     "images": {
       "icon": "icon.png"
     },
