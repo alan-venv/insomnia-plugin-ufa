@@ -1,12 +1,12 @@
 module.exports.templateTags = [
     {
-        name: 'geradorDeCPF',
+        name: 'CPF generator',
         displayName: 'CPF',
-        description: 'Gera um CPF válido aleatório',
+        description: 'Generates a random valid CPF',
         args: [
             {
-                displayName: 'Com mascara?',
-                description: 'Adicionar mascara',
+                displayName: 'Mask',
+                description: 'Add mask',
                 type: 'boolean',
                 defaultValue: false
             }
@@ -27,9 +27,9 @@ module.exports.templateTags = [
         }
     },
     {
-        name: 'timestampAsSeconds',
+        name: 'Timestamp',
         displayName: 'Timestamp as seconds',
-        description: 'Gera um timestamp em segundos',
+        description: 'Generates a timestamp in seconds',
         async run() {
             const ms = Date.now()
             return Math.round(ms / 1000)
